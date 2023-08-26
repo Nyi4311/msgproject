@@ -1,0 +1,122 @@
+.main {
+    margin: 0 auto;
+    max-width: auto;
+}
+
+.menu {
+    /* background-color: aqua; */
+    position: sticky;
+    top: 0;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid lightgray;
+    opacity: 0.9;
+}
+
+.LOGO {
+    display: inline-block;
+}
+
+.logo {
+    width: 40px;
+    right: 40px;
+    margin-left: 80px;
+}
+
+.atagbtn {
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 20px;
+    font-weight: 600;
+}
+
+.mobileMenuContainer{
+    float: right;
+    margin: 0 auto;
+    display: none;
+}
+
+.container {
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left{
+    display: inline-block;
+    width: 40%;
+}
+
+.right {
+    display: inline-block;
+    width: 57%;
+}
+
+.FeRImg {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.div1 {
+    color: #595959;
+    font-size: 15px;
+    font-weight: 450;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 10 auto;
+    line-height: 20px;
+}
+
+.ctext {
+    line-height: 65px;
+    font-size: 65px;
+    text-align: center;
+    margin:10 auto ;
+    padding: 20px 10px;
+}
+
+.ctimg{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 15px auto;
+    align-items: center;
+}
+
+.ctimg3{
+    margin: 10px auto;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px auto;
+    margin: 20px;
+    color: black;
+}
+
+@media(max-width:767px){
+    .atagbtn{display: none;}
+    .mobileMenuContainer{display: block;margin-right: 10px;}
+    .left{width: 100%; margin-bottom: 30px; text-align: center;}
+    .ctext{margin: 0 auto;}
+    .discription{margin: 0 auto;}
+    .right{width: 100%;}
+    .logo{margin-left: 10px;}
+}
+
+@media(max-width:375px){
+    .ctext{width: 95%;}
+    footer{margin-top: 30px; font-size: 20px;padding: 10px ;}
+    .ctimg{width: 100%; margin: 20px auto;}
+    .ctimg3{margin: 0 auto;}
+}

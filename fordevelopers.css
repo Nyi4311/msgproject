@@ -1,0 +1,143 @@
+.main {
+    margin: 0 auto;
+    max-width: auto;
+}
+
+.header {
+    /* background-color: aqua; */
+    width: auto;
+    margin: 0 auto;
+}
+
+.container {
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px auto;
+    font-weight: 600;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+.rightbar {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.alsoheader {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color:lightgray;
+    display: inline-block;
+    border-bottom: 1px solid grey;
+    z-index: 1;
+}
+
+.h2left {
+    margin:0 auto;
+    padding: 15px 20px;
+    font-weight: 500;
+    width: 43%;
+    display:inline-block;
+}
+
+.h2right{
+    margin: 0 auto;   
+    width: 55%;
+    display: inline-block;
+}
+
+.dropdown {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#dropdownMenuButton {
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.dropdown-menu {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.ddatag {
+    text-decoration: none;
+    color: black;
+}
+
+.ct1 {
+    width:auto;
+    margin: 20 auto;
+    display: flex;
+}
+
+.ct1left {
+    width: 45%;
+}
+
+.ct1leeftatag {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.ct1right {
+    width:52% ;
+    overflow: hidden;
+}
+
+.ct2 {
+    width:auto;
+    margin: 20 auto;
+    display: flex;
+}
+
+.ct2l {
+    width: 45%;
+}
+
+.ct2ltimg {
+    align-items: start;
+    margin-top: 100px;    
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.ct2r{
+    margin-top: 50px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px auto;
+    margin: 20px;
+    color: black;
+}
+
+@media(max-width:767px){
+    .atagbtn{display: none;}
+    .mobileMenuContainer{display: block;margin-right: 10px;}
+    .left{width: 100%; margin-bottom: 30px; text-align: center;}
+    .inner{margin: 0 auto;}
+    .discription{margin: 0 auto;}
+    .blockElement{margin: 12px auto;}
+    .right{width: 100%;}
+    .logo{margin-left: 10px;}
+}
+
+@media(max-width:375px){
+    .inner{width: 95%;}
+    footer{margin-top: 30px; font-size: 20px;padding: 10px ;}
+}

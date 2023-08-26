@@ -1,0 +1,125 @@
+.main{
+    margin: 0 auto;
+    max-width: auto;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid lightgray;
+    opacity: 0.9;
+    
+}
+
+.LOGO {
+    display: inline-block;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 80px;
+    
+}
+
+.atagbtn {
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.mobileMenuContainer{
+    float: right;
+    margin:0 auto;
+    display: none;
+}
+
+.container {
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    display: inline-block;
+    width: 50%;
+}
+
+.blockElement {
+    display: block;
+    background: #f6f6f6;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: black;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 15px;
+    height: 36px;
+    margin-bottom: 12px;
+    padding: 8px 16px;
+    width: 290px;
+}
+
+.loginElement {
+    display: inline-block;
+    border-radius: 24px;
+    border: 1px solid #0084ff;
+    color: white;
+    background-color: #0084ff;
+    font-size: 15px;
+    height: 40px;
+    width:auto;
+    padding: 2px 20px;
+    margin: 10px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.checkElement{
+    display: inline-block;
+    padding: 2px 20px;
+    margin: 10px;
+
+}
+.right{
+    display: inline-block;
+    width: 50%;
+}
+
+.rightImage {
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px auto;
+    margin: 20px;
+    color: black;
+}
+
+@media(max-width:767px){
+    .atagbtn{display: none;}
+    .mobileMenuContainer{display: block;margin-right: 10px;}
+    .left{width: 100%; margin-bottom: 30px; text-align: center;}
+    .inner{margin: 0 auto;}
+    .discription{margin: 0 auto;}
+    .blockElement{margin: 12px auto;}
+    .right{width: 100%;}
+    .logo{margin-left: 10px;}
+}
+
+@media(max-width:375px){
+    .inner{width: 95%;}
+    footer{margin-top: 30px; font-size: 20px;padding: 10px ;}
+}

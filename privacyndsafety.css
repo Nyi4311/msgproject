@@ -1,0 +1,189 @@
+.main{
+    margin: 0 auto;
+    max-width: auto;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid lightgray;
+    opacity: 0.9;
+    
+}
+
+.LOGO {
+    display: inline-block;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 80px;
+    
+}
+
+.atagbtn {
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.mobileMenuContainer{
+    float: right;
+    margin:0 auto;
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+.left {
+    display: inline-block;
+    font-size: 70px;
+    font-weight: 700;
+    width: 45%;
+    margin: 20px auto;
+}
+
+.right {
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.rightImage {
+    width: 100%;
+}
+
+.sesect {
+    width: auto;
+    margin: 40px auto;
+}
+
+.txt1 {
+    margin: 10 auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 80px;}
+
+.txt2 {
+    margin: 10 auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.scet3 {
+    width: auto;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.left3sect{
+    width: 50%;
+    margin: 10 auto;
+    float: left;
+}
+
+.left3sectimg {
+    width: 100%;
+    float: left;
+}
+
+.right3sect{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.r3sd1{
+    margin: 10 auto;
+    font-size: 20px;
+}
+
+.r3sd2 {
+    margin: 10 auto;
+}
+
+.btn-primary{
+    border-radius: 24px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.card{
+    margin: 15px auto;
+    width: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.col-md-4 {
+    margin: 15px auto;
+}
+
+.text-center {
+    margin: 5px auto;
+    height: 200px;
+    text-align: center;
+
+}
+
+.cardtitle {
+    margin: 0 auto;
+}
+
+.cardbody {
+    margin: 5px auto;
+    text-align: center;
+    border: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px auto;
+    margin: 20px;
+    color: black;
+}
+
+@media(max-width:767px){
+    .atagbtn{display: none;}
+    .mobileMenuContainer{display: block;margin-right: 10px;}
+    .left{width: 100%; margin-bottom: 30px; text-align: center;}
+    .inner{margin: 0 auto;}
+    .discription{margin: 0 auto;}
+    .blockElement{margin: 12px auto;}
+    .right{width: 100%;}
+    .logo{margin-left: 10px;}
+}
+
+@media(max-width:375px){
+    .inner{width: 95%;}
+    footer{margin-top: 30px; font-size: 20px;padding: 10px ;}
+}
